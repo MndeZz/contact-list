@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lista De Contactos</title>
+</head>
+<body>
+    <section class="container">
+        <div id="agregarElementoContainer">
+            <h1><span>Agregar</span> Un Elemento a La Lista:</h1>
+            <input id="agregarContacto" type="text" placeholder="Ingrese El Nombre a Agregar a La Lista" >
+            <button onclick="agregarContacto()">Agregar</button>
+        </div>
+    
+        <div>
+            <h1>¿Desea <span>Eliminar</span> Un Contacto De La Lista?</h1>
+            <input id="eliminarContacto" type="text" placeholder="Ingrese El Nombre Del Contacto Que Desea Eliminar">
+            <button onclick="eliminarContacto()">Eliminar</button>
+        </div>
+        
+        <div>
+            <h1><span>Previsualizacion</span> Del Array:</h1>
+            <section id="preb-array">
+                <script>document.write(listaContactos)</script>
+            </section>
+            <script src="data.js"></script>
+            <br>
+            <button onclick="mostrar()">Mostrar En Consola</button>
+        </div>
+    </section>
+</body>
+</html>

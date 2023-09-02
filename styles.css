@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    background: #30261c;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    margin: auto;
+}
+div{
+    background: #1f5f61;
+    height: 33.333333vh;
+    outline: 1px solid #000000;
+    text-align: center;
+    color: rgb(245, 244, 244);
+    padding: 10px;
+    box-sizing: border-box;
+}
+span{
+    color: rgb(236, 62, 62);
+}
+input{
+    width: 70%;
+    height: 15%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    border: none;
+    color: white;
+    background-color: rgb(0, 0, 0,.5);
+}
+button{
+    width: 50%;
+    height: 20%;
+    margin-top: 20px;
+    transition: .3s;
+    background-color: #403831;
+    color: white;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: #30261c;
+}
