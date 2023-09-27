@@ -13,25 +13,26 @@
     <section class="container">
         <div id="agregarElementoContainer">
             <h1><span>Agregar</span> Un Elemento a La Lista:</h1>
-            <input id="agregarContacto" type="text" placeholder="Ingrese El Nombre a Agregar a La Lista" >
+            <input id="id" type="text" placeholder="Ingrese El ID" >
+            <input id="nombre" type="text" placeholder="Ingrese El Nombre">
+            <input id="apellido" type="text" placeholder="Ingrese El Apellido">
+            <input id="telefono" type="text" placeholder="Ingrese El Telefono">
+            <input id="ciudad" type="text" placeholder="Ingrese La Ciudad">
+            <input id="direccion" type="text" placeholder="Ingrese La Direccion">
             <button onclick="agregarContacto()">Agregar</button>
         </div>
     
-        <div>
+        <div id="eliminar">
             <h1>¿Desea <span>Eliminar</span> Un Contacto De La Lista?</h1>
-            <input id="eliminarContacto" type="text" placeholder="Ingrese El Nombre Del Contacto Que Desea Eliminar">
+            <input id="eliminarContacto" type="text" placeholder="Ingrese El Indice Del Contacto a Eliminar">
             <button onclick="eliminarContacto()">Eliminar</button>
         </div>
         
-        <div>
-            <h1><span>Previsualizacion</span> Del Array:</h1>
-            <section id="preb-array">
-                <script>document.write(listaContactos)</script>
-            </section>
-            <script src="data.js"></script>
-            <br>
+        <div id="BotonMostras">
+            <h2>Boton Para Mostrar En Consola</h2>
             <button onclick="mostrar()">Mostrar En Consola</button>
         </div>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
